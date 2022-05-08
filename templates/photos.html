@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+	<title>Out Door Sensor</title>
+	</head>
+	<body>
+		<p>{% for name in image_names %}
+			<img src="{{ url_for('static', filename='pferson_folder/' + name) }}" >
+		{% endfor %}</p>
+	</body>
+</html>
